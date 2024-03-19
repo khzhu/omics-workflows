@@ -1,0 +1,10 @@
+{ "input_vcf": {"description":"input vcf", "optional":false},
+  "vcf_index": {"description":"index file", "optional":false},
+  "crai_file": {"description":"crai file", "optional":false},
+  "ref_fasta": {"description":"ref fasta file", "optional":false},
+  "ref_fasta_index": {"description": "ref index file", "optional":false},
+  "ref_dict": {"description":"ref dict", "optional":false},
+  "vep_cache": {"description":"vep cache file", "optional":false},
+  "vep_tar_ball": {"description":"vep tarball", "optional":false},
+  "sample_name_map": {"description":"sample map file", "optional":false}
+}
