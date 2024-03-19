@@ -1,0 +1,10 @@
+{
+  "input_vcf":"s3://omics-analytics-workflows/data_contrib/exomes_cre_v2_03.vcf.gz",
+  "vcf_index": "s3://omics-analytics-workflows/data_contrib/exomes_cre_v2_03.vcf.gz.tbi",
+  "ref_fasta": "s3://broad-references/hg38/v0/Homo_sapiens_assembly38.fasta",
+  "ref_fasta_index": "s3://broad-references/hg38/v0/Homo_sapiens_assembly38.fasta.fai",
+  "ref_dict": "s3://broad-references/hg38/v0/Homo_sapiens_assembly38.dict",
+  "vep_cache": "s3://omics-analytics-workflows/tools/vep/cache/homo_sapiens_vep_109_GRCh38.tar.gz",
+  "vep_tar_ball": "omics-analytics-workflows/tools/vep/ensembl-vep-release-109.3.tar.gz",
+  "sample_name_map": "omics-analytics-workflows/map_files/cre_v2_map_files/exomes_cre_v2_samples.txt"
+}
